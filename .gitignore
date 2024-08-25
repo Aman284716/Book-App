@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend.pnp.js
+
+# React testing
+/frontend/coverage
+
+# React production build
+/frontend/build
+
+# Spring-specific
+/backend/target/
+!backend/src/main/**/target/
+!backend/src/test/**/target/
+
+# Spring Maven wrapper
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+/.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!backend/src/main/**/build/
+!backend/src/test/**/build/
+
+# VS Code
+/.vscode/
+
+# OS-specific files
+.DS_Store
+
+# Environment variables
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Eclipse (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
